@@ -1,0 +1,39 @@
+sort1 uses: Bubble sort
+
+How do you know?: Is averagely slow but is quick when the list is sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: Is consistently the quickest method.
+
+sort3 uses: Selection sort
+
+How do you know?: Takes the same amount of time to organise random and sorted datasets because it has to check all values multiple times.
+
+
+SORT1
+real    0m19.198s    random
+user    0m6.414s
+sys     0m0.092s
+
+real    0m4.175s     sorted
+user    0m0.029s
+sys     0m0.080s
+
+SORT2   Merge
+real    0m5.800s     random
+user    0m0.026s
+sys     0m0.087s
+
+real    0m4.784s     sorted
+user    0m0.021s
+sys     0m0.107s
+
+SORT3
+real    0m8.514s     random
+user    0m2.416s
+sys     0m0.084s
+
+real    0m9.163s     sorted
+user    0m2.465s
+sys     0m0.088s
